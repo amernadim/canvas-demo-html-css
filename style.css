@@ -1,0 +1,539 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: url(./image/paris-city-of-love-eiffel-tower.width-1600.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    
+}
+.heading{
+    height:600px ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.26) ;
+}
+.headeer{
+    height: 40px;
+    width: 100%;
+   
+}
+/* items */
+.items{
+    width: 50%;
+    float: left;
+    padding:10px 0 0 50px;
+    font-size: 12px;
+
+}
+.items ul li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+  
+}
+
+.items ul li a{    
+    text-decoration: none;
+    color: white;
+}
+.items ul li a:hover{
+    color: brown;
+}
+
+
+/* icons */
+.icons{
+    width: 40%;
+    float: left;
+    padding:10px 0 0px 0px;
+    font-size: 12px;
+    text-align: right;
+
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 0 12px 0 5px;
+  
+}
+
+.icons ul li a{    
+    text-decoration: none;
+    color: white;
+}
+.icons ul li a:hover{
+    color: brown;
+}
+
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    width: 20%;
+   height: auto;
+   margin-left: 50px; 
+   float: left;
+
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+.manu{
+    width: 70% ;
+    float: left;
+    margin-left: 75px;
+    
+}
+.manu ul li{
+    display: inline-block;
+    text-align: end;
+    margin: 10px 20px 0 20px;
+
+}
+
+.manu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.manu ul li a i{
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+.manu ul li a:hover{
+    color: brown;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 10px 10px 10px 10px;
+
+}
+
+/* contant */
+.contant{
+    height: 60px;
+    width: 45%;
+    margin-left: 70px;
+    background-color: rgba(48, 45, 45, 0.883);
+}
+.contant ul li{
+    display: inline-block;
+    padding-top: 15px;
+}
+.contant ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px 0 25px;
+    color: white;
+}
+.li1{
+    background-color: brown;
+    width: 25%;
+    height: 45px;
+}
+.redline{
+    height: 5px;
+    width: 60%;
+    background-color: brown;
+    margin-left: 50px;
+}
+.contant2{
+    height: 400px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.603);
+    margin-left: 50px;
+}
+.text{
+    width: 100%;
+
+}
+.text h5{
+    font-size: 30px;
+    padding: 25px 0 0 25px;
+    font-weight: 500;
+    width: 50%;
+    float: left;
+}
+.subcontnt{
+    height: 40px;
+    width: 30%;
+    float: left;
+    padding: 15px 0 0 25px;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+}
+.subcontnt .p1{
+    height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: brown;
+    float: left;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+.subcontnt .p1:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+}
+
+
+
+.subcontnt .p2{
+    height: 25px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: gray;  
+    float: left;
+    padding: 8px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.subcontnt .p2:hover{
+    background-color:rgba(0, 0, 0, 0.637);
+    color: white;
+}
+
+.subcontnt a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+
+.from{
+    padding-top: 80px;
+    margin: 0 0 0 25px ;
+}
+.from label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.from .text{
+   height: 40px;
+   width: 300px;
+   margin-top: 20px;
+}
+.from .text1{
+    height: 40px;
+   width: 200px;
+   margin-top: 20px;
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    background-color: brown;
+   
+    border: none;
+    /* padding: 15px 0 0 50px; */
+    margin: 30px 0 0 250px;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* flex */
+.container{
+    background-color: rgb(240, 238, 235);
+    height: 400px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 50px 0 50px;
+    padding-top: 50px;
+}
+.grid div{
+    align-items: center;
+    padding: 70px 20px;
+}
+.grid div a{
+    font-size: 42px;
+    color: brown;
+}
+.grid div a:hover{
+    color: black;
+}
+
+.grid div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+.grid div h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* TAILOR MADE PACKAGES FOR YOU  */
+.package{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+.package p{
+    margin-top: 10px ;
+    font-size: 16px;
+    color:brown;
+
+
+}
+.package h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px ;
+    letter-spacing: 2px;
+}
+/* PACKEHE GRID */
+.grid-00{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.grid-00 div{
+    height: 250px;
+   
+}
+.grid-00 div h3{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+    padding-top: 100px;
+}
+.grid-00 h3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+}
+/* .grid-00 h3 a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.568);
+
+} */
+.grid-00 .grid1{
+    background-image: url(./image/image01.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid1::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid2{
+    background-image: url(./image/image02.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid2::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid3{
+    background-image: url(./image/image03.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid3::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid4{
+    background-image: url(./image/image04.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid4::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid5{
+    background-image: url(./image/image05.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid5::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid6{
+    background-image: url(./image/image06.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid6::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid7{
+    background-image: url(./image/image07.jpg);
+    background-size: cover;
+    position: relative;
+}
+.grid-00 .grid7::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid-00 .grid8{
+    background-image: url(./image/image08.jpg);
+    background-size: cover;
+    
+    position: relative;
+}
+.grid-00 .grid8::before{
+    background-color: rgba(0, 0, 0, 0.096);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+/* map */
+
+
+
+.grid-01{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height: auto;
+}
+.mapouter{
+    height:389px;
+}
+/* map end */
+
+/*  popular destinatio start */
+.popular h4{
+    font-size:22px ;
+    font-weight: 100px ;
+    margin-left: 15px ;
+    letter-spacing: 2px;
+    padding-top: 40px;
+}
+
+.card01{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.card02{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.card03{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.card04{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.card img{
+    margin-left: 15px;
+}
+.card .text h3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card .text h3 a:hover{
+    color: brown;
+}
+.card .text p span{
+    color: brown;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card .text p{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* popular destination end */
+
+/* footer */
+.footer{
+    background-color: rgb(34, 31, 31);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer:hover{
+    background-color: brown;
+}
+.footer p{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    padding: 30px 0;
+}
+.footer p a{
+    color: white;   
+}
+
